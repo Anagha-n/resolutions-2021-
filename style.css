@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+*:before,*:after{
+	box-sizing: border-box;
+}
+*{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{font-family: 'Bubblegum Sans', cursive;
+
+}
+.resolutions{
+	margin-top: 300px;
+	margin-bottom: 200px;
+	padding: 20px;
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.sticky-note{
+	width: 30%;
+	padding: 0 30px;
+	position: relative;
+}
+.title{
+	padding: 40px 0;
+	text-align: center;
+	position: relative;
+	border-bottom-right-radius: 25px;
+	box-shadow: 29px 34px 36px -26px rgb(0, 0, 0);
+	/* background-color: rgb(136, 77, 175); */
+}
+.title:after, .title:before{
+	content: ' ';
+	position: absolute;
+	z-index: 1;
+	right: -5px;
+	bottom: -5px;
+	width: 30px;
+	height: 30px;
+	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.5);
+	transform: skew(0 deg) rotate(-3deg);
+	background-color: transparent;
+}
+.title:after{
+	right: -5px;
+	bottom: -5px;
+	transform: skew(3deg) rotate(0deg);
+	box-shadow: 2px 2px 18px rgba(0, 0, 0,0.0);
+}
+.title .date{
+	 display: inline-block;
+	 font-size: 1.4em;
+	 padding: 10px 0;
+}
+.content{
+	padding: 25px;
+	box-shadow: -1px 4px 16px 0 rgba(0, 0, 0,0.5);
+}
+p{
+	font-size: 30px;
+}
+img{
+	width: 25%;
+	background: transparent;
+}
+.content,.content-text{
+	padding-bottom: 5px;
+	align-items: justify;
+}
+h4{
+	font-size: 25px;
+}
+.pinned{
+	position: absolute;
+	bottom: -15px;
+	z-index: 1;
+	color: black;
+	top: 25px;
+	left: 180px;
+	font-size:3em;
+	transform: translateX(-50%) rotate(55deg);
+	letter-spacing: 50%;
+	height: 300px;
+	width: 300px;
+	bottom: 300px;
+}
+.one{
+	background-color:darkslateblue ;
+}
+.two{
+	background-color:crimson ;
+}
+.three{
+	background-color: forestgreen;
+}
+.four{
+	background-color:#0066cc;
+}
+.content-one{
+	transform: rotate(-10deg);
+}
+.content-two{
+	transform: rotate(6deg);
+}
+.content-three{
+	transform: rotate(-7deg);
+}
+.content-four{
+	transform: rotate(9deg);
+}
+.content-eight{
+	transform: rotate(-10deg);
+}
+.content-seven{
+	transform: rotate(6deg);
+}
+.content-six{
+	transform: rotate(-7deg);
+}
+.content-five{
+	transform: rotate(9deg);
+}
+h1{
+	margin-top: 40px;
+	text-align: center;
+	margin-bottom: 60px;
+	font-family: 'Luckiest Guy', cursive;
+		font-size:5vw;
+}
+.eight{
+	background-color: darkslateblue;
+}
+.seven{
+	background-color:crimson;
+}
+.six{
+	background-color: forestgreen;
+}
+.five{
+	background-color: #0066cc;
+}
+button{
+	display: flex;
+	margin: auto;
+	background: linear-gradient(yellow, orange);
+	padding: 10px;
+	font-size: 20px;
+}
+  button:hover{
+	  cursor: pointer;
+  }
